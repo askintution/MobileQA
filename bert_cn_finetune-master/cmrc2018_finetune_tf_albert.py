@@ -59,7 +59,7 @@ if __name__ == '__main__':
     parser.add_argument('--gpu_ids', type=str, default='0')
 
     # training parameter
-    parser.add_argument('--train_epochs', type=int, default=2)
+    parser.add_argument('--train_epochs', type=int, default=10)
     parser.add_argument('--n_batch', type=int, default=12)
     parser.add_argument('--lr', type=float, default=2e-5)
     parser.add_argument('--dropout', type=float, default=0.1)
